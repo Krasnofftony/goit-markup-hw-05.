@@ -531,8 +531,8 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.shadow-effect-portfolio:hover .project-brief,
-.shadow-effect-portfolio:focus .project-brief {
+.link:hover .project-brief,
+.link:focus .project-brief {
   transform: translateY(0);
   transition-property: transform;
   transition-duration: 250ms;
@@ -583,10 +583,11 @@ body {
   color: var(--elements-white);
   font-weight: 700;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 27px 82px 27px 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-text {
